@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RandomTable</string>
+    <string name="confirm">确定</string>
+    <string name="random">隨机</string>
+    <string name="row_count">列数</string>
+    <string name="col_count">行数</string>
+    <string name="start">开始</string>
+    <string name="game_intro">给定行数及列数后，每隔十秒会任意选择其中一个格子，\n请按下确定来取消格子</string>
+    <string name="caution">提醒：\n行数或列数太大时，画面会很不清楚唷</string>
+    <string name="please_enter_number">请输入大於0的数字</string>
+</resources>

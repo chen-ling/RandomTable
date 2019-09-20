@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">RandomTable</string>
+    <string name="confirm">OK</string>
+    <string name="random">Random</string>
+    <string name="row_count">Row count</string>
+    <string name="col_count">Column count</string>
+    <string name="start">START</string>
+    <string name="game_intro">After the number of rows and columns are given, one of the grids will be arbitrarily
+        selected every ten seconds. \nPress OK to cancel the grid.
+    </string>
+    <string name="caution">Reminder: \nWhen the number of rows or columns is too large, the picture will be very
+        complex.
+    </string>
+    <string name="please_enter_number">Please enter a number greater than 0</string>
+</resources>

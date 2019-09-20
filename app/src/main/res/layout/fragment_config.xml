@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_height="match_parent"
+                  android:layout_width="match_parent"
+                  android:layout_margin="@dimen/margin_padding_large"
+                  android:background="@color/white"
+                  android:orientation="vertical">
+
+        <TextView
+                style="@style/AppTheme.Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_padding_large"
+                android:text="@string/app_name"
+                android:textStyle="bold"
+                android:textSize="@dimen/font_xlarge"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+                style="@style/TextInputTheme"
+                android:id="@+id/rowInputLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/row_count">
+
+            <com.google.android.material.textfield.TextInputEditText
+                    style="@style/AppTheme.Text"
+                    android:imeOptions="flagNoExtractUi"
+                    android:id="@+id/rowCountEdit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+                style="@style/TextInputTheme"
+                android:id="@+id/colInputLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/col_count">
+
+            <com.google.android.material.textfield.TextInputEditText
+                    style="@style/AppTheme.Text"
+                    android:id="@+id/colCountEdit"
+                    android:imeOptions="flagNoExtractUi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <TextView
+                style="@style/AppTheme.Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_padding_large"
+                android:text="@string/game_intro"/>
+
+
+        <Button
+                android:id="@+id/startButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:layout_marginTop="@dimen/margin_padding_large"
+                android:paddingStart="@dimen/margin_padding_large"
+                android:paddingEnd="@dimen/margin_padding_large"
+                android:background="@color/colorPrimary"
+                android:text="@string/start"/>
+
+        <TextView
+                style="@style/AppTheme.Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_padding_xlarge"
+                android:layout_marginBottom="@dimen/margin_padding_large"
+                android:text="@string/caution"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,13 @@
+<resources>
+    <attr name="rowCount" format="integer"/>
+
+    <declare-styleable name="Column">
+        <attr name="rowCount"/>
+    </declare-styleable>
+
+    <declare-styleable name="GameView">
+        <attr name="rowCount"/>
+        <attr name="columnCount" format="integer"/>
+
+    </declare-styleable>
+</resources>
